@@ -1,150 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gruppe 5A</title>
-      <link rel="icon" href="images/icons/Gruppe5A.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
-      <style>
-          html{
-              background-color: cadetblue; /*bakgrunnsfarge*/
-          }
 
-          body{
-              margin:0;
-          }
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gruppe 5A</title>
+  <!-- <link rel="icon" href="images/icons/Gruppe5A.svg"> -->
+  <link rel="stylesheet" href="/Stylesheets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/1a56a64472.js" crossorigin="anonymous"></script>
 
-          a {
-              text-decoration: none;
-              color: black;
-              transition: all 0.3s ease 0s;
-          }
+</head>
 
-          a:hover{color:magenta;}
-
-          /* Navbar */
-          .navbarliste {
-              list-style: none; /*tar bort listetegnene*/
-              margin: 0;
-              box-sizing: border-box;
-              display: flex;
-              padding: 2rem;
-          }
-
-          .navbar {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              padding: 10px;
-              background-color: darkslategray;
-          }
-
-          li {
-              padding: 0 3rem 0 3rem;
-          }
-
-          .navbar-a{
-              color: white;
-              font-family: Arial;
-          }
-
-          /* Overskrift */
-          h1.overskrift-index {
-              cursor: default;
-              font-family: arial;
-              text-align: center;
-              font-size: 72px;
-              background: linear-gradient(yellow, orange);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-          }
-
-          /* Visittkort oppsett */
-          .flexbox {
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: space-evenly; /*elementene fordeler seg jevnt over siden*/
-          }
-
-          .flexbox>div {
-              display: flex;
-              flex-wrap: wrap;
-              min-width: 25%;
-              /*bredde på alle divtaggene innenfor flexbox*/
-              min-height: 250px;
-              /*høyde på alle divtaggene innenfor flexbox*/
-              margin: 30px;
-              /*ramme utenpå visittkortet*/
-              padding: 20px;
-              /*"plass" mellom innhold og kant*/
-              border-radius: 20px;
-          }
-
-          /* Visittkort innhold */
-          img {
-              width: 150px; /*bredde på bildene*/
-              padding-top: 45px;
-          }
-
-          .text-position {
-              padding-left: 5%;
-              font-family: Arial;
-              cursor: default;
-          }
-
-          p {
-              font-size: 18px;
-          }
-
-          h2 {
-              font-size: 20px;
-              cursor: default;
-          }
-
-          /* Visittkort farge*/
-          #sandra   {background-color: #ffd333;}
-          #emilie   {background-color: lightskyblue;}
-          #henrik   {background-color: #CF9FFF;}
-          #sander   {background-color: coral;}
-          #clifford {background-color: hotpink;}
-          #sarah    {background-color: #a3c9a8;}
-      </style>
-  </head >
-
-  <body>
-  <header>
-      <nav class="navbar"> <!--lager en navigasjonsbar-->
-          <ul class="navbarliste">
-              <li><a class="navbar-a" href="index.html">Forside</a></li> <!--lenker til andre sider, åpner i samme fane-->
-              <li><a class="navbar-a" href="how-we-roll.html">How We Roll</a></li>
-              <li><a class="navbar-a" href="hwr-report.html">HWR report</a></li>
-              <li><a class="navbar-a" href="Active-login.html" target="_blank">IS-104</a></li>
-          </ul>
-      </nav>
-  </header>
+<body>
+  <!-- nav section -->
+  <section>
+    <nav class="navbar">
+      <!-- nav bar -->
+      <ul class="navbarliste">
+        <!-- link -->
+        <li><a class="navbar-a" href="index.html">Forside</a></li>
+        <li><a class="navbar-a" href="/files/how-we-roll.html">How We Roll</a></li>
+        <li><a class="navbar-a" href="/files/hwr-report.html">HWR report</a></li>
+        <li><a class="navbar-a" href="/files/Active-login.html" target="_blank">IS-104</a></li>
+      </ul>
+    </nav>
+  </section>
 
   <!-- Overskrift -->
-    <h1 class="overskrift-index">GRUPPE 5A</h1>
+  <h1 class="overskrift-index">5A</h1>
 
-    <!-- Visittkort -->
+  <!-- Visittkort section -->
+  <section>
     <div class="flexbox">
 
-      <div id="sandra"> <!-- første visittkort   -->
+
+      <div id="sandra">
+        <!-- første visittkort   -->
         <div class="text-position">
           <img src="images/sandra.jpg" alt="bilde av Sandra"> <!-- legger til bilde med alternativ tekst -->
         </div>
         <div class="text-position">
-            <h2>Sandra<br>Høyland</h2>
-            <p><i class="fas fa-house-user"></i> Kristiansand </p> <!--legger til ikoner-->
-            <p><i class="fas fa-birthday-cake"></i> 2002 </p>
-            <p><i class="far fa-envelope"></i> sandrah@uia.no </p>
-            <p> <i class="fab fa-github"></i> <a href="https://github.com/sanhoy" target="_blank"> sanhoy</a></p> <!-- lenke som åpner i en ny fane-->
+          <h2>Sandra<br>Høyland</h2>
+          <p><i class="fas fa-house-user"></i> Kristiansand </p>
+          <!--legger til ikoner-->
+          <p><i class="fas fa-birthday-cake"></i> 2002 </p>
+          <p><i class="far fa-envelope"></i> sandrah@uia.no </p>
+          <p> <i class="fab fa-github"></i> <a href="https://github.com/sanhoy" target="_blank"> sanhoy</a></p>
+          <!-- lenke som åpner i en ny fane-->
         </div>
       </div>
 
-      <div id="emilie"> <!-- andre visittkort   -->
+      <div id="emilie">
+        <!-- andre visittkort   -->
         <div class="text-position">
           <img src="images/emilie.png" alt="bilde av Emilie">
         </div>
@@ -153,61 +61,69 @@
           <p><i class="fas fa-house-user"></i> Langesund</p>
           <p><i class="fas fa-birthday-cake"></i> 2001</p>
           <p><i class="far fa-envelope"></i> emiliebs@uia.no</p>
-          <p><i class="fab fa-github"></i><a href="https://github.com/emiliebstrandi" target="_blank"> emiliebstrandi</a></p>
+          <p><i class="fab fa-github"></i><a href="https://github.com/emiliebstrandi" target="_blank">
+              emiliebstrandi</a>
+          </p>
         </div>
       </div>
 
-      <div id="henrik"> <!-- tredje visittkort   -->
-          <div class="text-position">
-            <img src="images/henrik.jpg" alt="bilde av Henrik">
-          </div>
-          <div class="text-position">
-            <h2>Lars Henrik Bjørck<br>Råkil</h2>
-            <p><i class="fas fa-house-user"></i> Sarpsborg</p>
-            <p><i class="fas fa-birthday-cake"></i> 2001</p>
-            <p><i class="far fa-envelope"></i> lhraakil@uia.no </p>
-            <p> <i class="fab fa-github"></i> <a href="https://github.com/HenrikRaakil" target="_blank"> HenrikRaakil</a></p>
-          </div>
+      <div id="henrik">
+        <!-- tredje visittkort   -->
+        <div class="text-position">
+          <img src="images/henrik.jpg" alt="bilde av Henrik">
         </div>
+        <div class="text-position">
+          <h2>Lars Henrik Bjørck<br>Råkil</h2>
+          <p><i class="fas fa-house-user"></i> Sarpsborg</p>
+          <p><i class="fas fa-birthday-cake"></i> 2001</p>
+          <p><i class="far fa-envelope"></i> lhraakil@uia.no </p>
+          <p> <i class="fab fa-github"></i> <a href="https://github.com/HenrikRaakil" target="_blank"> HenrikRaakil</a>
+          </p>
+        </div>
+      </div>
 
       <div id="sander">
-          <div class="text-position">
-            <img src="images/sander.jpg" alt="bilde av Sander">
-          </div>
-          <div class="text-position">
-            <h2>Sander<br>Aadal</h2>
-            <p><i class="fas fa-house-user"></i> Vennesla</p>
-            <p><i class="fas fa-birthday-cake"></i> 1998</p>
-            <p><i class="far fa-envelope"></i> sanderla@uia.no</p>
-            <p><i class="fab fa-github"></i><a href="https://github.com/Sander-Aadal" target="_blank"> Sander-Aadal</a></p>
-          </div>
+        <div class="text-position">
+          <img src="images/sander.jpg" alt="bilde av Sander">
+        </div>
+        <div class="text-position">
+          <h2>Sander<br>Aadal</h2>
+          <p><i class="fas fa-house-user"></i> Vennesla</p>
+          <p><i class="fas fa-birthday-cake"></i> 1998</p>
+          <p><i class="far fa-envelope"></i> sanderla@uia.no</p>
+          <p><i class="fab fa-github"></i><a href="https://github.com/Sander-Aadal" target="_blank"> Sander-Aadal</a>
+          </p>
+        </div>
       </div>
 
       <div id="clifford">
-            <div class="text-position">
-              <img src="images/clifford.jpg" alt="bilde av Clifford">
-            </div>
-            <div class="text-position">
-              <h2>Clifford <br> Valiente</h2>
-              <p><i class="fas fa-house-user"></i> Oslo </p>
-              <p><i class="fas fa-birthday-cake"></i> 2001</p>
-              <p><i class="far fa-envelope"></i> cliffordv@uia.no</p>
-              <p><i class="fab fa-github"></i><a href="https://github.com/cliffyxv" target="_blank"> cliffyxv</a></p>
-            </div>
+        <div class="text-position">
+          <img src="images/clifford.jpg" alt="bilde av Clifford">
+        </div>
+        <div class="text-position">
+          <h2>Clifford <br> Valiente</h2>
+          <p><i class="fas fa-house-user"></i> Oslo </p>
+          <p><i class="fas fa-birthday-cake"></i> 2001 </p>
+          <p><i class="far fa-envelope"></i> cliffordv@uia.no </p>
+          <p><i class="fab fa-github"></i><a href="https://github.com/cliffeyXvaliente" target="_blank">
+              cliffeyXvaliente </a></p>
+        </div>
       </div>
 
       <div id="sarah">
-            <div class="text-position">
-              <img src="images/sarahA.jpg" alt="bilde av Sarah">
-            </div>
-            <div class="text-position">
-              <h2>Sarah Adina <br> Kristiansen</h2>
-              <p><i class="fas fa-house-user"></i> Krødsherad</p>
-              <p><i class="fas fa-birthday-cake"></i> 2002</p>
-              <p><i class="far fa-envelope"></i> sakristian@uia.no</p>
-              <p><i class="fab fa-github"></i><a href="https://github.com/SarahAdina" target="_blank"> SarahAdina</a></p>
-            </div>
+        <div class="text-position">
+          <img src="images/sarahA.jpg" alt="bilde av Sarah">
+        </div>
+        <div class="text-position">
+          <h2>Sarah Adina <br> Kristiansen</h2>
+          <p><i class="fas fa-house-user"></i> Krødsherad</p>
+          <p><i class="fas fa-birthday-cake"></i> 2002</p>
+          <p><i class="far fa-envelope"></i> sakristian@uia.no</p>
+          <p><i class="fab fa-github"></i><a href="https://github.com/SarahAdina" target="_blank"> SarahAdina</a></p>
+        </div>
       </div>
     </div>
-  </body>
+  </section>
+</body>
+
 </html>

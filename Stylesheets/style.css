@@ -1,0 +1,130 @@
+ html {
+
+     background-image   : url("/images/backgroundlila.jpeg");
+     background-size    : cover;
+     background-position: center;
+     background-repeat  : no-repeat;
+ }
+
+ body {
+     margin: 0;
+ }
+
+ /* nav */
+ a {
+     margin         : 0 2rem;
+     padding        : 0.8rem 1.5rem;
+     border         : solid white;
+     border-radius  : 4rem;
+     text-decoration: none;
+     transition     : all 0.8s ease 0s;
+ }
+
+ a:hover {
+
+     color: magenta;
+
+ }
+
+ .navbarliste {
+     list-style: none;
+     margin    : 0;
+     box-sizing: border-box;
+     display   : flex;
+     padding   : 2rem;
+ }
+
+ .navbar {
+     display         : flex;
+     justify-content : center;
+     align-items     : center;
+     padding         : 1rem;
+     background-color: rgba(107, 0, 160, 0.267);
+ }
+
+
+ .navbar-a {
+     color      : white;
+     font-family: monospace;
+     font-size  : 13;
+ }
+
+ /* Overskrift */
+ h1.overskrift-index {
+     cursor                 : default;
+     font-family            : arial;
+     text-align             : center;
+     font-size              : 72px;
+     background             : linear-gradient(yellow, orange);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ /* Visittkort oppsett */
+ .flexbox {
+     display        : flex;
+     flex-wrap      : wrap;
+     justify-content: space-evenly;
+     /*elementene fordeler seg jevnt over siden*/
+ }
+
+ .flexbox>div {
+     display      : flex;
+     flex-wrap    : wrap;
+     min-width    : 25%;
+     /*bredde på alle divtaggene innenfor flexbox*/
+     min-height   : 250px;
+     /*høyde på alle divtaggene innenfor flexbox*/
+     margin       : 30px;
+     /*ramme utenpå visittkortet*/
+     padding      : 20px;
+     /*"plass" mellom innhold og kant*/
+     border-radius: 20px;
+ }
+
+ /* Visittkort innhold */
+ img {
+     width      : 150px;
+     /*bredde på bildene*/
+     padding-top: 45px;
+ }
+
+ .text-position {
+     padding-left: 5%;
+     font-family : Arial;
+     cursor      : default;
+ }
+
+ p {
+     font-size: 18px;
+ }
+
+ h2 {
+     font-size: 20px;
+     cursor   : default;
+ }
+
+ /* Visittkort farge*/
+ #sandra {
+     background-color: #ffd333;
+ }
+
+ #emilie {
+     background-color: lightskyblue;
+ }
+
+ #henrik {
+     background-color: #CF9FFF;
+ }
+
+ #sander {
+     background-color: coral;
+ }
+
+ #clifford {
+     background-color: rgba(251, 124, 188, 0.801);
+ }
+
+ #sarah {
+     background-color: #a3c9a8;
+ }
