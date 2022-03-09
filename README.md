@@ -20,6 +20,6 @@ Here we post code relevant to IS-114 and IS-104
 #### Language and programs used so far
 - Js
 - Html
-- Sss
+- Css
 
 #### Improved version 
